@@ -1,0 +1,14 @@
+---
+- name: Deploy simple website using Ansible Lightspeed with watsonx Code Assistant
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: Ensure httpd package is installed.
+
+    # Start and enable firewalld & Allow the traffic through firewalld & reload firewalld
+        
+    - name: Copy contents from ../website/ folder and set permissions and ownership to root.
+    
+    - name: Start and enable httpd.
+
