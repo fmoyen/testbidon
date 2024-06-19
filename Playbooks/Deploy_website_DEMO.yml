@@ -1,5 +1,5 @@
 ---
-- name: Deploy simple website using Ansible Lightspeed with watsonx Code Assistant
+- name: Deploy simple website using Ansible Lighspeed with watsonx Code Assistant
   hosts: all
   gather_facts: false
 
@@ -12,3 +12,7 @@
     
     - name: Start and enable httpd.
 
+
+    
+
+  
